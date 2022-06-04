@@ -222,6 +222,7 @@
 
 .heading {
   display: block;
+  padding-top: 10px;
   margin-top: 126px;
   margin-bottom: 0px;
   -webkit-box-pack: center;
@@ -641,6 +642,7 @@
   font-size: 40px;
   font-weight: 900;
   text-align: center;
+  padding-top: 10px;
 }
 
 .text-span-8 {
