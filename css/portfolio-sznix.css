@@ -282,8 +282,24 @@
   padding-bottom: 20px;
   border-radius: 0px;
   background-color: rgba(0, 171, 174, 0);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 206, 209, 0.52)), color-stop(28%, rgba(11, 206, 209, 0.52)), color-stop(47%, rgba(28, 248, 252, 0.52)), color-stop(65%, rgba(95, 246, 248, 0.34)), to(#fff));
-  background-image: linear-gradient(180deg, rgba(11, 206, 209, 0.52), rgba(11, 206, 209, 0.52) 28%, rgba(28, 248, 252, 0.52) 47%, rgba(95, 246, 248, 0.34) 65%, #fff);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(11, 206, 209, 0.52)),
+    color-stop(28%, rgba(11, 206, 209, 0.52)),
+    color-stop(47%, rgba(28, 248, 252, 0.52)),
+    color-stop(65%, rgba(95, 246, 248, 0.34)),
+    to(#fff)
+  );
+  background-image: linear-gradient(
+    180deg,
+    rgba(11, 206, 209, 0.52),
+    rgba(11, 206, 209, 0.52) 28%,
+    rgba(28, 248, 252, 0.52) 47%,
+    rgba(95, 246, 248, 0.34) 65%,
+    #fff
+  );
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
 }
@@ -724,8 +740,22 @@
   }
 
   .navbar {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 206, 209, 0.52)), color-stop(37%, rgba(11, 206, 209, 0.52)), color-stop(59%, rgba(6, 228, 231, 0.47)), to(#fff));
-    background-image: linear-gradient(180deg, rgba(11, 206, 209, 0.52), rgba(11, 206, 209, 0.52) 37%, rgba(6, 228, 231, 0.47) 59%, #fff);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(11, 206, 209, 0.52)),
+      color-stop(37%, rgba(11, 206, 209, 0.52)),
+      color-stop(59%, rgba(6, 228, 231, 0.47)),
+      to(#fff)
+    );
+    background-image: linear-gradient(
+      180deg,
+      rgba(11, 206, 209, 0.52),
+      rgba(11, 206, 209, 0.52) 37%,
+      rgba(6, 228, 231, 0.47) 59%,
+      #fff
+    );
   }
 
   .div-block {
@@ -828,8 +858,22 @@
   }
 
   .nav-menu {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(31%, #4ac3c6), color-stop(64%, rgba(0, 198, 202, 0.24)), to(#fff));
-    background-image: linear-gradient(180deg, #fff, #4ac3c6 31%, rgba(0, 198, 202, 0.24) 64%, #fff);
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#fff),
+      color-stop(31%, #4ac3c6),
+      color-stop(64%, rgba(0, 198, 202, 0.24)),
+      to(#fff)
+    );
+    background-image: linear-gradient(
+      180deg,
+      #fff,
+      #4ac3c6 31%,
+      rgba(0, 198, 202, 0.24) 64%,
+      #fff
+    );
   }
 }
 
@@ -952,7 +996,12 @@
   }
 
   .nav-menu {
-    background-image: repeating-linear-gradient(180deg, #e1eded, #61cbcd 38%, #abe3e4 67%, #fff);
+    background-image: repeating-linear-gradient(
+      180deg,
+      #e1eded,
+      #61cbcd 38%,
+      #abe3e4 67%,
+      #fff
+    );
   }
 }
-
